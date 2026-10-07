@@ -15,7 +15,7 @@
 
 ### Mahasiswa Teknik Informatika yang senang mempelajari bagaimana berbagai hal bekerja.
 
-Saat ini saya sedang mengeksplorasi **Python, C++, Go, JavaScript, PHP, dan SQL**, sembari mendalami **Data Science, Struktur Data, Database, dan Artificial Intelligence**.
+Saat ini saya sedang mengeksplorasi **Python, C++, Go, JavaScript, PHP, dan SQL**, sambil mendalami **Data Science, Struktur Data, Database, dan Artificial Intelligence**.
 
 > Terus belajar. Terus berkarya. Terus mencari tahu.
 
@@ -76,7 +76,7 @@ Di luar pemrograman, saya sering mempelajari berbagai bidang lainnya seperti **s
 
 ---
 
-## 🧩 Apa yang Sedang Saya Pelajari
+## Apa yang Sedang Saya Pelajari
 
 ### Data Science (Python)
 Saat ini sedang mendalami:
