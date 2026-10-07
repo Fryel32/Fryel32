@@ -1,1 +1,127 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#101D32"/>
+      <stop offset="1" stop-color="#172B46"/>
+    </linearGradient>
 
+    <linearGradient id="blue" x1="160" y1="50" x2="1050" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EC5FF"/>
+      <stop offset="1" stop-color="#4C8DDA"/>
+    </linearGradient>
+
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(960 70) rotate(135) scale(340 340)">
+      <stop stop-color="#5B9BE6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5B9BE6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(220 320) rotate(-20) scale(300 220)">
+      <stop stop-color="#8EC5FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8EC5FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+
+  <!-- Atmospheric glow -->
+  <circle cx="970" cy="70" r="260" fill="url(#glow1)"/>
+  <circle cx="200" cy="350" r="230" fill="url(#glow2)"/>
+
+  <!-- Decorative grid -->
+  <g opacity="0.08" stroke="#8EC5FF">
+    <path d="M0 80H1200"/>
+    <path d="M0 160H1200"/>
+    <path d="M0 240H1200"/>
+    <path d="M0 320H1200"/>
+
+    <path d="M120 0V380"/>
+    <path d="M240 0V380"/>
+    <path d="M360 0V380"/>
+    <path d="M480 0V380"/>
+    <path d="M600 0V380"/>
+    <path d="M720 0V380"/>
+    <path d="M840 0V380"/>
+    <path d="M960 0V380"/>
+    <path d="M1080 0V380"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="1010" cy="105" r="95" stroke="#8EC5FF" stroke-opacity="0.16"/>
+  <circle cx="1010" cy="105" r="65" stroke="#8EC5FF" stroke-opacity="0.13"/>
+  <circle cx="1010" cy="105" r="35" stroke="#8EC5FF" stroke-opacity="0.1"/>
+
+  <!-- Decorative line -->
+  <path d="M790 300C860 245 915 250 980 205C1035 167 1090 155 1200 175"
+        stroke="url(#blue)"
+        stroke-opacity="0.35"
+        stroke-width="2"/>
+
+  <path d="M850 325C910 285 950 290 1010 250C1070 210 1120 205 1200 220"
+        stroke="#8EC5FF"
+        stroke-opacity="0.12"
+        stroke-width="1"/>
+
+  <!-- Small nodes -->
+  <circle cx="980" cy="205" r="4" fill="#8EC5FF" fill-opacity="0.8"/>
+  <circle cx="1010" cy="250" r="3" fill="#8EC5FF" fill-opacity="0.6"/>
+  <circle cx="1090" cy="155" r="3" fill="#8EC5FF" fill-opacity="0.5"/>
+
+  <!-- Main identity -->
+  <text x="82" y="128"
+        fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="48"
+        font-weight="700"
+        letter-spacing="-1">
+    FARREL ISLAMI PUTRA
+  </text>
+
+  <text x="84" y="173"
+        fill="#8EC5FF"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="21"
+        font-weight="500">
+    Informatics Engineering Student
+  </text>
+
+  <text x="84" y="214"
+        fill="#CBD5E1"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16">
+    Learning • Building • Exploring
+  </text>
+
+  <!-- Skill line -->
+  <g transform="translate(84 260)">
+    <rect width="365" height="42" rx="21"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.16"/>
+
+    <text x="22" y="27"
+          fill="#EAF4FF"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="14"
+          font-weight="500">
+      Python · C++ · JavaScript · PHP
+    </text>
+  </g>
+
+  <!-- Username -->
+  <text x="84" y="335"
+        fill="#64748B"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="14">
+    @Fryel32
+  </text>
+
+  <!-- Accent -->
+  <rect x="84" y="84" width="48" height="4" rx="2" fill="url(#blue)"/>
+</svg>
