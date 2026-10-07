@@ -1,1 +1,110 @@
+<svg width="1000" height="410" viewBox="0 0 1000 410" fill="none" xmlns="http://www.w3.org/2000/svg">
 
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#172B46"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="50" y1="50" x2="950" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EC5FF"/>
+      <stop offset="1" stop-color="#5B9BE6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="410" rx="28" fill="url(#bg)"/>
+
+  <text x="55" y="65"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="30"
+        font-weight="700"
+        fill="#F8FAFC">
+    Game Corner
+  </text>
+
+  <text x="55" y="95"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="14"
+        fill="#94A3B8">
+    Games I enjoy when I'm not coding
+  </text>
+
+  <!-- Games -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+
+    <rect x="55" y="125" width="275" height="90" rx="18"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.15"/>
+
+    <text x="78" y="160" font-size="16" font-weight="700" fill="#F8FAFC">
+      Ghost of Tsushima
+    </text>
+    <text x="78" y="187" font-size="13" fill="#94A3B8">
+      Open world • Samurai
+    </text>
+
+    <rect x="362" y="125" width="275" height="90" rx="18"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.15"/>
+
+    <text x="385" y="160" font-size="16" font-weight="700" fill="#F8FAFC">
+      The Last of Us
+    </text>
+    <text x="385" y="187" font-size="13" fill="#94A3B8">
+      Story • Survival
+    </text>
+
+    <rect x="669" y="125" width="275" height="90" rx="18"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.15"/>
+
+    <text x="692" y="160" font-size="16" font-weight="700" fill="#F8FAFC">
+      Red Dead Redemption 2
+    </text>
+    <text x="692" y="187" font-size="13" fill="#94A3B8">
+      Open world • Story
+    </text>
+
+    <rect x="55" y="235" width="275" height="90" rx="18"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.15"/>
+
+    <text x="78" y="270" font-size="16" font-weight="700" fill="#F8FAFC">
+      Age of Empires IV
+    </text>
+    <text x="78" y="297" font-size="13" fill="#94A3B8">
+      Strategy • RTS
+    </text>
+
+    <rect x="362" y="235" width="275" height="90" rx="18"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.15"/>
+
+    <text x="385" y="270" font-size="16" font-weight="700" fill="#F8FAFC">
+      Hades II
+    </text>
+    <text x="385" y="297" font-size="13" fill="#94A3B8">
+      Roguelike • Action
+    </text>
+
+    <rect x="669" y="235" width="275" height="90" rx="18"
+          fill="#FFFFFF" fill-opacity="0.055"
+          stroke="#8EC5FF" stroke-opacity="0.15"/>
+
+    <text x="692" y="270" font-size="16" font-weight="700" fill="#F8FAFC">
+      Silent Hill 2
+    </text>
+    <text x="692" y="297" font-size="13" fill="#94A3B8">
+      Psychological horror
+    </text>
+
+  </g>
+
+  <path d="M55 350H945"
+        stroke="url(#line)"
+        stroke-opacity="0.25"/>
+
+  <circle cx="55" cy="350" r="3" fill="#8EC5FF"/>
+  <circle cx="945" cy="350" r="3" fill="#8EC5FF"/>
+
+</svg>
