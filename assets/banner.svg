@@ -28,14 +28,11 @@
     </filter>
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="380" rx="28" fill="url(#bg)"/>
 
-  <!-- Atmospheric glow -->
   <circle cx="970" cy="70" r="260" fill="url(#glow1)"/>
   <circle cx="200" cy="350" r="230" fill="url(#glow2)"/>
 
-  <!-- Decorative grid -->
   <g opacity="0.08" stroke="#8EC5FF">
     <path d="M0 80H1200"/>
     <path d="M0 160H1200"/>
@@ -53,12 +50,10 @@
     <path d="M1080 0V380"/>
   </g>
 
-  <!-- Decorative circles -->
   <circle cx="1010" cy="105" r="95" stroke="#8EC5FF" stroke-opacity="0.16"/>
   <circle cx="1010" cy="105" r="65" stroke="#8EC5FF" stroke-opacity="0.13"/>
   <circle cx="1010" cy="105" r="35" stroke="#8EC5FF" stroke-opacity="0.1"/>
 
-  <!-- Decorative line -->
   <path d="M790 300C860 245 915 250 980 205C1035 167 1090 155 1200 175"
         stroke="url(#blue)"
         stroke-opacity="0.35"
@@ -69,7 +64,6 @@
         stroke-opacity="0.12"
         stroke-width="1"/>
 
-  <!-- Small nodes -->
   <circle cx="980" cy="205" r="4" fill="#8EC5FF" fill-opacity="0.8"/>
   <circle cx="1010" cy="250" r="3" fill="#8EC5FF" fill-opacity="0.6"/>
   <circle cx="1090" cy="155" r="3" fill="#8EC5FF" fill-opacity="0.5"/>
@@ -99,7 +93,6 @@
     Learning • Building • Exploring
   </text>
 
-  <!-- Skill line (Lebar Disesuaikan ke 510px & Teks Otomatis Centered) -->
   <g transform="translate(84 260)">
     <rect width="510" height="42" rx="21"
           fill="#FFFFFF" fill-opacity="0.055"
@@ -115,7 +108,6 @@
     </text>
   </g>
 
-  <!-- Username -->
   <text x="84" y="335"
         fill="#64748B"
         font-family="JetBrains Mono, Consolas, monospace"
@@ -123,6 +115,5 @@
     @Fryel32
   </text>
 
-  <!-- Accent -->
   <rect x="84" y="84" width="48" height="4" rx="2" fill="url(#blue)"/>
 </svg>
