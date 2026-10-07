@@ -1,46 +1,82 @@
 <svg width="1000" height="500" viewBox="0 0 1000 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-
   <defs>
+    <!-- Background Gradient (matching banner) -->
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="500" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFC"/>
-      <stop offset="1" stop-color="#EAF4FF"/>
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#101D32"/>
+      <stop offset="1" stop-color="#172B46"/>
     </linearGradient>
 
-    <linearGradient id="accent" x1="0" y1="0" x2="900" y2="450" gradientUnits="userSpaceOnUse">
+    <!-- Accent Gradient (matching banner) -->
+    <linearGradient id="accent" x1="160" y1="50" x2="1050" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="#8EC5FF"/>
-      <stop offset="1" stop-color="#5B9BE6"/>
+      <stop offset="1" stop-color="#4C8DDA"/>
     </linearGradient>
+
+    <!-- Glow Effects -->
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(800 100) rotate(135) scale(280 280)">
+      <stop stop-color="#5B9BE6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#5B9BE6" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(150 400) rotate(-20) scale(250 200)">
+      <stop stop-color="#8EC5FF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#8EC5FF" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
+  <!-- Background -->
   <rect width="1000" height="500" rx="28" fill="url(#bg)"/>
+  <circle cx="800" cy="100" r="210" fill="url(#glow1)"/>
+  <circle cx="150" cy="400" r="180" fill="url(#glow2)"/>
+
+  <!-- Decorative Grid (matching banner) -->
+  <g opacity="0.05" stroke="#8EC5FF">
+    <path d="M0 80H1000"/>
+    <path d="M0 160H1000"/>
+    <path d="M0 240H1000"/>
+    <path d="M0 320H1000"/>
+    <path d="M0 400H1000"/>
+    <path d="M120 0V500"/>
+    <path d="M240 0V500"/>
+    <path d="M360 0V500"/>
+    <path d="M480 0V500"/>
+    <path d="M600 0V500"/>
+    <path d="M720 0V500"/>
+    <path d="M840 0V500"/>
+    <path d="M960 0V500"/>
+  </g>
 
   <!-- Header -->
   <text x="55" y="72"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="32"
         font-weight="700"
-        fill="#0B1220">
+        fill="#F8FAFC">
     What I'm Working On
   </text>
 
   <text x="55" y="105"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="15"
-        fill="#64748B">
+        fill="#8EC5FF">
     Current learning path
   </text>
 
+  <!-- Card 1: Data Science -->
   <rect x="55" y="145" width="425" height="125" rx="20"
-        fill="#FFFFFF"
-        stroke="#D8E7F7"/>
+        fill="#FFFFFF" fill-opacity="0.055"
+        stroke="#8EC5FF" stroke-opacity="0.16"/>
 
-  <circle cx="95" cy="185" r="20" fill="#EAF4FF"/>
+  <circle cx="95" cy="185" r="20" fill="#8EC5FF" fill-opacity="0.15"/>
   <text x="95" y="191"
         text-anchor="middle"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="15"
         font-weight="700"
-        fill="#4C8DDA">
+        fill="#8EC5FF">
     DS
   </text>
 
@@ -48,31 +84,32 @@
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
         font-weight="700"
-        fill="#0B1220">
+        fill="#EAF4FF">
     Data Science (Python)
   </text>
 
   <text x="130" y="210"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="14"
-        fill="#64748B">
+        fill="#CBD5E1">
     Pandas • NumPy • SciPy
   </text>
 
-  <rect x="130" y="230" width="300" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="130" y="230" width="300" height="6" rx="3" fill="#1E293B"/>
   <rect x="130" y="230" width="210" height="6" rx="3" fill="url(#accent)"/>
 
+  <!-- Card 2: C++ -->
   <rect x="520" y="145" width="425" height="125" rx="20"
-        fill="#FFFFFF"
-        stroke="#D8E7F7"/>
+        fill="#FFFFFF" fill-opacity="0.055"
+        stroke="#8EC5FF" stroke-opacity="0.16"/>
 
-  <circle cx="560" cy="185" r="20" fill="#EAF4FF"/>
+  <circle cx="560" cy="185" r="20" fill="#8EC5FF" fill-opacity="0.15"/>
   <text x="560" y="191"
         text-anchor="middle"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="14"
         font-weight="700"
-        fill="#4C8DDA">
+        fill="#8EC5FF">
     C++
   </text>
 
@@ -80,31 +117,32 @@
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
         font-weight="700"
-        fill="#0B1220">
+        fill="#EAF4FF">
     C++ &amp; Data Structures
   </text>
 
   <text x="595" y="210"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="14"
-        fill="#64748B">
+        fill="#CBD5E1">
     Pointers • STL Vectors • Pointers • Logic
   </text>
 
-  <rect x="595" y="230" width="300" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="595" y="230" width="300" height="6" rx="3" fill="#1E293B"/>
   <rect x="595" y="230" width="165" height="6" rx="3" fill="url(#accent)"/>
 
+  <!-- Card 3: SQL -->
   <rect x="55" y="300" width="425" height="125" rx="20"
-        fill="#FFFFFF"
-        stroke="#D8E7F7"/>
+        fill="#FFFFFF" fill-opacity="0.055"
+        stroke="#8EC5FF" stroke-opacity="0.16"/>
 
-  <circle cx="95" cy="340" r="20" fill="#EAF4FF"/>
+  <circle cx="95" cy="340" r="20" fill="#8EC5FF" fill-opacity="0.15"/>
   <text x="95" y="346"
         text-anchor="middle"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="14"
         font-weight="700"
-        fill="#4C8DDA">
+        fill="#8EC5FF">
     SQL
   </text>
 
@@ -112,31 +150,32 @@
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
         font-weight="700"
-        fill="#0B1220">
+        fill="#EAF4FF">
     SQL &amp; Database Systems
   </text>
 
   <text x="130" y="365"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="14"
-        fill="#64748B">
+        fill="#CBD5E1">
     Data • Queries • Relational thinking
   </text>
 
-  <rect x="130" y="385" width="300" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="130" y="385" width="300" height="6" rx="3" fill="#1E293B"/>
   <rect x="130" y="385" width="85" height="6" rx="3" fill="url(#accent)"/>
 
+  <!-- Card 4: AI -->
   <rect x="520" y="300" width="425" height="125" rx="20"
-        fill="#FFFFFF"
-        stroke="#D8E7F7"/>
+        fill="#FFFFFF" fill-opacity="0.055"
+        stroke="#8EC5FF" stroke-opacity="0.16"/>
 
-  <circle cx="560" cy="340" r="20" fill="#EAF4FF"/>
+  <circle cx="560" cy="340" r="20" fill="#8EC5FF" fill-opacity="0.15"/>
   <text x="560" y="346"
         text-anchor="middle"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="15"
         font-weight="700"
-        fill="#4C8DDA">
+        fill="#8EC5FF">
     AI
   </text>
 
@@ -144,18 +183,17 @@
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
         font-weight="700"
-        fill="#0B1220">
+        fill="#EAF4FF">
     Artificial Intelligence
   </text>
 
   <text x="595" y="365"
         font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="14"
-        fill="#64748B">
+        fill="#CBD5E1">
     Exploring • Machine Learning • AI Engineering
   </text>
 
-  <rect x="595" y="385" width="300" height="6" rx="3" fill="#E2E8F0"/>
+  <rect x="595" y="385" width="300" height="6" rx="3" fill="#1E293B"/>
   <rect x="595" y="385" width="50" height="6" rx="3" fill="url(#accent)"/>
-
 </svg>
