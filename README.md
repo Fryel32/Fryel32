@@ -151,7 +151,7 @@ AI Engineering
 
 ---
 
-## 📚 Di Luar Pemrograman
+## Hal Lain Yang Saya Suka
 
 Pemrograman hanyalah salah satu dari sekian banyak hal yang suka saya pelajari. 
 
@@ -169,7 +169,7 @@ Pemrograman hanyalah salah satu dari sekian banyak hal yang suka saya pelajari.
 
 ---
 
-## 🌐 Mari Terhubung
+## Contact Me
 
 <div align="center">
   <a href="https://github.com/Fryel32">
